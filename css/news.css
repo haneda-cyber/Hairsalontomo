@@ -1,0 +1,43 @@
+.content11 {
+    max-width: 800px;
+    margin: 100px auto;
+  }
+  /*
+  【タイトル】
+  画面幅を縮めた際に、要素が左にはみ出すのを防ぐために
+  「display: inline-block;」を指定。
+  タイトルを基準に疑似要素で横線位置を調整するため、
+  「position: relative;」を設定しておく。
+  */
+  .title11 {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  .content11 h2{
+    font-size: 30px;
+  }
+  /*
+  【タイトル（横線）】
+  「width」「height」で長さと太さを設定。
+  「content」を指定することで線が表示される。
+  「position」「top」「left」で、タイトルを基準に
+  横線の位置を設定します。
+  */
+  .title11::before {
+    content: "";
+    width: 90px;
+    height: 1px;
+    background-color: #676767;
+    position: absolute;
+    top: 50%;
+    left: -120px;
+  }
+  .text11 {
+    max-width: 460px;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 80px;
+  }

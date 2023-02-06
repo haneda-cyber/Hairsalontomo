@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+
+
+
+/*-------------------------------------------
+Menu
+-------------------------------------------*/
+#menu {
+    margin-top: 0px;
+    background-color: #fff;
+  }
+  
+  #menu .menu-img {
+    background-image: url(../img/hair-spies.jpg);
+    position: relative;
+
+  }
+  #menu1 .menu-img1{
+    background-image: url(../img/barber-shop-ga70368d71_1920.jpg);
+    position: relative;
+  }
+  .menu-item dl h2{
+    font-family: 'Shippori Mincho', serif;
+  }
+  .menu-item p{
+    text-align:left;
+    
+  }
+  #menu .menu-content {
+    display: flex;
+  }
+  #menu .menu-item {
+    width: 50%;
+    padding: 0 45px;
+  }
+  #menu .menu-item:first-child {
+    border-right: solid 1px #000;
+  }
+  #menu .menu-item dl {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #menu .menu-item dt {
+    width: 87%;
+    text-align: left;
+    border-bottom: dotted 1px #000;
+    margin-bottom: 25px;
+  }
+  #menu .menu-item dd {
+    width: 13%;
+    text-align: right;
+    padding-top: 8px;
+    font-size: 14px;
+  }
+  
+  #menu .menu-item dl.food {
+    margin-bottom: 55px;
+  }
+  #menu .menu-item .food dd{
+    font-size: 14px;
+  }
+  .fixed-bg {
+    height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  /*
+  中身のコンテンツ幅を指定するための共通クラス
+  */
+  .wrapper {
+    max-width: 1000px;
+    padding: 90px 16px 150px 16px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .site-title {
+    padding: 0 16px;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    filter: drop-shadow(1px 1px 10px #c0c0c0);
+  }
+  .sec-title {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 4.5rem;
+    filter: drop-shadow(1px 1px 10px #c0c0c0);
+    position: absolute;
+    top: 30%;
+  }
+  /*
+  display: inline-block;
+  下線をテキスト幅にあわせる
+  */
+  .item-title {
+    font-size: 2.5rem;
+    display: inline-block;
+    border-bottom: solid 6px #e03131;
+    margin-bottom: 70px;
+  }
+
+
+  /*---------------------------------
+タイトルつき囲み枠
+--------------------------------*/
+.point-box {
+  
+  border: 2px solid #e03131; /* 枠の太さ・種類・色 */
+  border-radius: 4px; /* 枠の丸み */
+  margin: 1.8em 1em; /* 枠外の余白 */
+  padding: 5px 15px;
+}
+.point-title p{
+  text-align: left;
+}
+
+.point-title {
+  position: absolute;
+  padding: 0 0.5em;
+  left: 20px;
+  top: -13px; /* タイトルの位置を調整 */
+  color: #555555; /* タイトルの文字色 */
+  font-weight: bold;
+  font-size:0.9em; /* タイトルの文字サイズ */
+  background-color: #ffffff;
+  
+}
+
+/*---------------------------------
+タイトルつき囲み枠
+--------------------------------*/
+.point-box-green {
+  
+  border: 2px solid green; /* 枠の太さ・種類・色 */
+  border-radius: 4px; /* 枠の丸み */
+  margin: 1.8em 1em; /* 枠外の余白 */
+  padding: 5px 15px;
+}
+.point-title-green p{
+  text-align: left;
+}
+
+.point-title-green {
+  position: absolute;
+  padding: 0 0.5em;
+  left: 20px;
+  top: -13px; /* タイトルの位置を調整 */
+  color: #555555; /* タイトルの文字色 */
+  font-weight: bold;
+  font-size:0.9em; /* タイトルの文字サイズ */
+  background-color: #ffffff;
+  
+}
+
+/*---------------------------------
+タイトルつき囲み枠
+--------------------------------*/
+.point-box-yellow {
+  
+  border: 2px solid rgb(207, 207, 2); /* 枠の太さ・種類・色 */
+  border-radius: 4px; /* 枠の丸み */
+  margin: 1.8em 1em; /* 枠外の余白 */
+  padding: 5px 15px;
+}
+.point-title-yellow p{
+  text-align: left;
+}
+
+.point-title-yellow {
+  position: absolute;
+  padding: 0 0.5em;
+  left: 20px;
+  top: -13px; /* タイトルの位置を調整 */
+  color: #555555; /* タイトルの文字色 */
+  font-weight: bold;
+  font-size:0.9em; /* タイトルの文字サイズ */
+  background-color: #ffffff;
+  
+}
+.box-simple4 {
+  margin: 1em;
+  padding: 1em;
+  margin-top: 30%;
+  border: 5px double brown;
+  border-radius: 10px;  
+}
+.box-simple4 p {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
